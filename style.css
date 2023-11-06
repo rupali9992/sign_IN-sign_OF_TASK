@@ -1,0 +1,365 @@
+.navbar {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+body {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/banner1.jpg");
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: solid white;
+  border-radius: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background-color: #a5d2f0;
+  color: black;
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.buttons {
+  margin-right: 100px;
+}
+.navbar-brand {
+  margin-left: 100px;
+  font-size: 25px;
+  color: skyblue;
+  font-weight: 700;
+}
+.form-group {
+  background-image: linear-gradient(
+    15deg,
+    rgb(56, 109, 140, 0.3) 0%,
+    #bdefea 100%);
+  border: white;
+
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgb(26, 70, 79);
+  margin-top: 20px;
+}
+.form-group p {
+  text-align: center;
+  margin-bottom: 5px !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+::placeholder {
+  color: #7c878e;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.Facebook .Twitter .google {
+  text-align: center;
+}
+label {
+  top: 2px;
+  font-size: 12px;
+  color: red;
+  font-weight: 500px;
+}
+input label {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+.Facebook {
+  /* color: #3498db; */
+  color: white;
+  font-size: 20px;
+  background-color: aliceblue;
+  border: blue solid;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  box-shadow: 0px 0px 30px 0px rgb(57, 114, 114);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Facebook:hover {
+  background-color: skyblue;
+  border: none;
+  color: blue;
+  font-size: 22px;
+}
+.icon {
+  display: flex;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.toggle-password {
+  position: absolute;
+  right: 530px;
+  bottom: 300px;
+  /* right: 20px; */
+  font-size: 40px;
+  cursor: pointer;
+  /* top: 15px; */
+}
+.troggle-btn {
+  position: absolute;
+}
+.password {
+  position: relative;
+}
+#passwordInput {
+  position: relative !important;
+}
+.form-group h2 {
+  font-weight: 700;
+  color: #092638;
+}
+.form-group p a {
+  color: red;
+}
+.form-group p a:hover {
+  color: rgb(243, 248, 243);
+}
+.signUp-btn {
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Twitter {
+  color: white;
+  font-size: 20px;
+  background-color: aliceblue;
+  border: skyblue solid;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: skyblue;
+  box-shadow: 0px 0px 30px 0px rgb(245, 248, 248);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Twitter:hover {
+  background-color: white;
+  color: skyblue;
+  border: white;
+  font-size: 22px;
+}
+.google {
+  color: white;
+  font-size: 20px;
+  background-color: aliceblue;
+  border: red solid;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0px 0px 30px 0px rgb(57, 61, 61);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.google:hover {
+  color: red;
+  background-color: white;
+  border: white;
+  font-size: 22px;
+}
+#signinForm .form-group input#emailInput {
+  margin-bottom: 10px !important;
+}
+.signIn-btn {
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#signinForm .form-group {
+  background-color: grey;
+}
+.signp {
+  margin-top: 20px;
+}
+.password-form-group {
+  background-image: linear-gradient(
+    15deg,
+    rgb(56, 109, 140, 0.3) 0%,
+    #bdefea 100%
+  );
+  border: white;
+
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  height: 300px;
+  margin-left: 35%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgb(26, 70, 79);
+  margin-top: 20px;
+}
+
+.reset-password-btn {
+  margin-top: 40px;
+  margin-left: 30%;
+}
+.password-form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: solid white;
+  border-radius: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+.password-form-group h2 {
+  font-weight: 700;
+  color: #092638;
+}
+.password-container {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 30px;
+}
+
+.toggle-password1 {
+  position: absolute;
+  top: 43%;
+  right: 35%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 25px;
+}
+.toggle-password{
+  font-size: 25px;
+  top: 50%;
+}
+@media screen and (max-width: 575px)  {
+  .navbar-brand {
+    margin-left: 0px !important;
+    font-size: 20px;
+    color: skyblue;
+    margin-right: 0;
+
+}
+body{
+  overflow-x: hidden;
+}
+.buttons {
+    margin-right: 0px;
+    margin-left: 150px;
+}
+.signIn-btn {
+    margin-left: 37%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon {
+    display: flex;
+    text-align: center;
+    margin-left: 18%;
+     margin-top: 20px; 
+}
+.btn {
+    background-color: #a5d2f0;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.signUp-btn {
+    margin-left: 37%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.password-form-group {
+    background-image: linear-gradient( 15deg, rgb(56, 109, 140, 0.3) 0%, #bdefea 100% );
+    border: white;
+    width: 330px;
+    height: 500px;
+    padding: 20px;
+    height: 300px;
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgb(26, 70, 79);
+    margin-top: 20px;
+}
+.reset-password-btn {
+    margin-top: 40px;
+    margin-left: 25%;
+}
+.toggle-password1 {
+    position: absolute;
+    top: 97%;
+    right: 17%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+.toggle-password {
+    position: absolute;
+    right: 17%;
+
+    font-size: 40px;
+    cursor: pointer;
+
+    top: 112%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+}
