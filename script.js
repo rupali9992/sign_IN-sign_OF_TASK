@@ -10,25 +10,7 @@ function redirectToSignUp() {
   document.getElementById("forgotPasswordForm").style.display = "none";
 }
 
-function signIn() {
-  var email = document.getElementById("emailInput").value;
-  if (email.endsWith("@gmail.com")) {
-    window.location.href = "NayFankhFoundation/index.html";
-  } else {
-    alert("Please enter a valid Gmail address.");
-  }
-}
 
-function signUp() {
-  var email = document.getElementById("emailInput").value;
-  if (email.endsWith("@gmail.com")) {
-    window.location.href = "NayFankhFoundation/index.html";
-  } else {
-    alert("Please enter a valid Gmail address.");
-  }
-
-  window.location.href = "NayFankhFoundation/index.html";
-}
 function togglePasswordVisibility() {
   const passwordInput = document.getElementById("password1");
   const eyeIcon = document.getElementById("eye-icon");
@@ -59,6 +41,18 @@ function togglePasswordVisibility1() {
     eyeIcon.classList.add("fa-eye");
   }
 }
+function signUp() {
+  var email = document.getElementById("emailInput").value;
+  var errorDiv = document.getElementById("errorDiv");
+
+  if (email.endsWith("@gmail.com")) {
+    
+    window.location.href = "NayFankhFoundation/index.html"; // Navigate to the home page for a valid email
+  } else {
+    errorDiv.textContent = "Please enter a valid Gmail address.";
+    
+  }
+}
 
 
 function signIn() {
@@ -74,8 +68,9 @@ function signIn() {
     emailErrorMessage.style.marginLeft = "10px";
   } else {
     emailErrorMessage.style.display = "none";
+      window.location.href = "NayFankhFoundation/index.html";
   }
-  window.location.href = "NayFankhFoundation/index.html";
+
 }
 
 function isValidEmail(email) {
